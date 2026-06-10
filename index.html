@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gabriel Borges | Portfólio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e293b,#020617);
+    color:white;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    max-width:800px;
+    animation:fadeIn 1.2s ease;
+}
+
+h1{
+    font-size:3.5rem;
+    margin-bottom:10px;
+}
+
+h2{
+    color:#38bdf8;
+    margin-bottom:25px;
+    font-weight:400;
+}
+
+p{
+    font-size:1.1rem;
+    line-height:1.8;
+    color:#cbd5e1;
+    margin-bottom:30px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    text-decoration:none;
+    padding:14px 24px;
+    border-radius:10px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.primary{
+    background:#38bdf8;
+    color:#0f172a;
+}
+
+.primary:hover{
+    transform:translateY(-3px);
+    background:#0ea5e9;
+}
+
+.secondary{
+    border:2px solid #38bdf8;
+    color:#38bdf8;
+}
+
+.secondary:hover{
+    background:#38bdf8;
+    color:#0f172a;
+}
+
+section{
+    padding:80px 20px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.skills{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    width:180px;
+    border-radius:12px;
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+footer{
+    border-top:1px solid #334155;
+    text-align:center;
+    padding:30px;
+    color:#94a3b8;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@media(max-width:768px){
+    h1{
+        font-size:2.5rem;
+    }
+
+    p{
+        font-size:1rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+
+        <h1>Gabriel Borges</h1>
+
+        <h2>Estudante de Ciência da Computação</h2>
+
+        <p>
+            Olá! Meu nome é Gabriel Borges e sou estudante de Ciência da Computação
+            no UniCEUB. Tenho grande interesse na área de tecnologia e busco uma
+            oportunidade de estágio para desenvolver minhas habilidades técnicas,
+            adquirir experiência profissional e crescer tanto pessoalmente quanto
+            profissionalmente.
+        </p>
+
+        <div class="buttons">
+
+            <a
+            class="btn primary"
+            href="https://www.linkedin.com/in/gabriel-santiago-8443a640b/"
+            target="_blank">
+            LinkedIn
+            </a>
+
+            <a
+            class="btn secondary"
+            href="mailto:gabrielllborgess146@gmail.com">
+            E-mail
+            </a>
+
+            <a
+            class="btn secondary"
+            href="https://wa.me/5561992192765"
+            target="_blank">
+            WhatsApp
+            </a>
+
+        </div>
+
+    </div>
+</header>
+
+<section>
+
+    <h2 class="section-title">Minhas Habilidades</h2>
+
+    <div class="skills">
+
+        <div class="card">
+            <h3>HTML5</h3>
+        </div>
+
+        <div class="card">
+            <h3>CSS3</h3>
+        </div>
+
+        <div class="card">
+            <h3>JavaScript</h3>
+        </div>
+
+        <div class="card">
+            <h3>Git & GitHub</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>📞 Telefone: (61) 99219-2765</p>
+
+    <p>📧 E-mail: gabrielllborgess146@gmail.com</p>
+
+    <p>💼 LinkedIn: linkedin.com/in/gabriel-santiago-8443a640b</p>
+
+</footer>
+
+</body>
+</html>
+<a
+  class="btn primary"
+  href="https://docs.google.com/document/d/16fTadyEXC_9egQC4xfkacmCLCVppgvI6TKNBxZTrjUk/edit?usp=sharing"
+  target="_blank">
+  📄 Ver Currículo
+</a>
+<section>
+    <h2>Currículo</h2>
+
+    <iframe
+        src="curriculo-gabriel-borges.pdf"
+        width="100%"
+        height="800">
+    </iframe>
+</section>

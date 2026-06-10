@@ -7,18 +7,14 @@
 <title>Gabriel Borges | Portfólio</title>
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Segoe UI',sans-serif;
-}
-
 body{
+    margin:0;
+    font-family:Arial, sans-serif;
     background:linear-gradient(135deg,#0f172a,#1e293b,#020617);
     color:white;
 }
 
+/* HEADER */
 header{
     min-height:100vh;
     display:flex;
@@ -30,37 +26,37 @@ header{
 
 .container{
     max-width:800px;
-    animation:fadeIn 1.2s ease;
 }
 
 h1{
-    font-size:3.5rem;
+    font-size:3rem;
     margin-bottom:10px;
 }
 
 h2{
     color:#38bdf8;
-    margin-bottom:25px;
     font-weight:400;
+    margin-bottom:20px;
 }
 
 p{
     font-size:1.1rem;
-    line-height:1.8;
     color:#cbd5e1;
-    margin-bottom:30px;
+    line-height:1.6;
+    margin-bottom:25px;
 }
 
+/* BOTÕES */
 .buttons{
     display:flex;
     justify-content:center;
-    gap:15px;
     flex-wrap:wrap;
+    gap:15px;
 }
 
 .btn{
     text-decoration:none;
-    padding:14px 24px;
+    padding:12px 20px;
     border-radius:10px;
     font-weight:bold;
     transition:0.3s;
@@ -73,7 +69,6 @@ p{
 
 .primary:hover{
     transform:translateY(-3px);
-    background:#0ea5e9;
 }
 
 .secondary{
@@ -86,20 +81,18 @@ p{
     color:#0f172a;
 }
 
+/* SEÇÃO */
 section{
     padding:80px 20px;
-}
-
-.section-title{
     text-align:center;
-    margin-bottom:40px;
 }
 
-.skills{
+.cards{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
     gap:20px;
+    margin-top:30px;
 }
 
 .card{
@@ -107,42 +100,22 @@ section{
     padding:20px;
     width:180px;
     border-radius:12px;
-    text-align:center;
-    transition:.3s;
+    transition:0.3s;
 }
 
 .card:hover{
     transform:translateY(-8px);
 }
 
+/* FOOTER */
 footer{
-    border-top:1px solid #334155;
     text-align:center;
     padding:30px;
+    border-top:1px solid #334155;
     color:#94a3b8;
 }
-
-@keyframes fadeIn{
-    from{
-        opacity:0;
-        transform:translateY(30px);
-    }
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
-}
-
-@media(max-width:768px){
-    h1{
-        font-size:2.5rem;
-    }
-
-    p{
-        font-size:1rem;
-    }
-}
 </style>
+
 </head>
 
 <body>
@@ -152,36 +125,31 @@ footer{
 
         <h1>Gabriel Borges</h1>
 
-        <h2>Estudante de Ciência da Computação</h2>
+        <h2>Estudante de Ciência da Computação - UniCEUB</h2>
 
         <p>
-            Olá! Meu nome é Gabriel Borges e sou estudante de Ciência da Computação
-            no UniCEUB. Tenho grande interesse na área de tecnologia e busco uma
-            oportunidade de estágio para desenvolver minhas habilidades técnicas,
-            adquirir experiência profissional e crescer tanto pessoalmente quanto
-            profissionalmente.
+            Olá! Meu nome é Gabriel Borges. Tenho interesse em conseguir um estágio
+            para minha evolução pessoal e profissional na área de tecnologia,
+            com foco em desenvolvimento front-end.
         </p>
 
         <div class="buttons">
 
-            <a
-            class="btn primary"
-            href="https://www.linkedin.com/in/gabriel-santiago-8443a640b/"
-            target="_blank">
-            LinkedIn
+            <a class="btn primary"
+               href="https://www.linkedin.com/in/gabriel-santiago-8443a640b/"
+               target="_blank">
+               LinkedIn
             </a>
 
-            <a
-            class="btn secondary"
-            href="mailto:gabrielllborgess146@gmail.com">
-            E-mail
+            <a class="btn secondary"
+               href="mailto:gabrielllborgess146@gmail.com">
+               E-mail
             </a>
 
-            <a
-            class="btn secondary"
-            href="https://wa.me/5561992192765"
-            target="_blank">
-            WhatsApp
+            <a class="btn secondary"
+               href="https://wa.me/5561992192765"
+               target="_blank">
+               WhatsApp
             </a>
 
         </div>
@@ -191,25 +159,14 @@ footer{
 
 <section>
 
-    <h2 class="section-title">Minhas Habilidades</h2>
+    <h2>Habilidades</h2>
 
-    <div class="skills">
+    <div class="cards">
 
-        <div class="card">
-            <h3>HTML5</h3>
-        </div>
-
-        <div class="card">
-            <h3>CSS3</h3>
-        </div>
-
-        <div class="card">
-            <h3>JavaScript</h3>
-        </div>
-
-        <div class="card">
-            <h3>Git & GitHub</h3>
-        </div>
+        <div class="card">HTML5</div>
+        <div class="card">CSS3</div>
+        <div class="card">JavaScript</div>
+        <div class="card">Git & GitHub</div>
 
     </div>
 
@@ -217,28 +174,11 @@ footer{
 
 <footer>
 
-    <p>📞 Telefone: (61) 99219-2765</p>
-
-    <p>📧 E-mail: gabrielllborgess146@gmail.com</p>
-
-    <p>💼 LinkedIn: linkedin.com/in/gabriel-santiago-8443a640b</p>
+    <p>📞 (61) 99219-2765</p>
+    <p>📧 gabrielllborgess146@gmail.com</p>
+    <p>💼 linkedin.com/in/gabriel-santiago-8443a640b</p>
 
 </footer>
 
 </body>
 </html>
-<a
-  class="btn primary"
-  href="https://docs.google.com/document/d/16fTadyEXC_9egQC4xfkacmCLCVppgvI6TKNBxZTrjUk/edit?usp=sharing"
-  target="_blank">
-  📄 Ver Currículo
-</a>
-<section>
-    <h2>Currículo</h2>
-
-    <iframe
-        src="curriculo-gabriel-borges.pdf"
-        width="100%"
-        height="800">
-    </iframe>
-</section>
